@@ -1,0 +1,23 @@
+[!] todo language 
+
+[-] Create directory structure
+
+[-] Create a NPM project and install all dependenties.
+    - Dependencies
+       - express
+       - ejs express-ejs-layouts
+    Dev dependenties
+      - nodemon
+
+[o] Create Express server - Create a server.js file
+
+[.] Create home page using html and css
+    - include taiwind css
+[.] Create cart page
+    - Order summary section
+    - empty cart section
+
+[.] Create order controller and link it in server.js
+[.] Create order view with table for customer and admin
+[.] Create orders with single page with status
+[.] Create login page with route
