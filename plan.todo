@@ -9,10 +9,11 @@
     Dev dependenties
       - nodemon
 
-[o] Create Express server - Create a server.js file
+[-] Create Express server - Create a server.js file
 
-[.] Create home page using html and css
+[-] Create home page using html and css
     - include taiwind css
+    
 [.] Create cart page
     - Order summary section
     - empty cart section
