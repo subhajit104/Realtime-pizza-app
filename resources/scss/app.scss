@@ -1,3 +1,28 @@
-body{
-    background-color: red;
+@import 'variables';
+
+body {
+    font-family: lato , sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: $dark;
+    
+};
+
+
+nav li:last-child a {
+    
+    transition: $smooth;
+    background: $primary;
+    display: block;
+
+    &:hover {
+        background: $primary-hover;
+    }
+}
+
+section.hero {
+    background: $secondary;
+}
+
+nav li a {
+    transition: $smooth ;
 }

@@ -1,3 +1,22 @@
 body {
-  background-color: red;
+  font-family: lato, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #535151;
+}
+
+nav li:last-child a {
+  transition: all 0.3s ease-in-out;
+  background: #FE5F1E;
+  display: block;
+}
+nav li:last-child a:hover {
+  background: #b34401;
+}
+
+section.hero {
+  background: #F8F8F8;
+}
+
+nav li a {
+  transition: all 0.3s ease-in-out;
 }
