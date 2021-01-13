@@ -2,6 +2,7 @@ body {
   font-family: lato, sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #535151;
+  height: 400px;
 }
 
 nav li:last-child a {
@@ -19,4 +20,19 @@ section.hero {
 
 nav li a {
   transition: all 0.3s ease-in-out;
+}
+
+.size {
+  background: #F8F8F8;
+}
+
+.add-to-cart {
+  border: 2px solid #FE5F1E;
+  color: #FE5F1E;
+}
+.add-to-cart:hover {
+  background: #FE5F1E;
+  border-color: #fff;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
 }
