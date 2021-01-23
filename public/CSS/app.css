@@ -8,7 +8,6 @@ body {
 nav li:last-child a {
   transition: all 0.3s ease-in-out;
   background: #FE5F1E;
-  display: block;
 }
 nav li:last-child a:hover {
   background: #b34401;
@@ -35,4 +34,22 @@ nav li a {
   border-color: #fff;
   transition: all 0.3s ease-in-out;
   color: #fff;
+}
+.add-to-cart:focus {
+  outline: none;
+}
+
+.btn-primary {
+  background: #FE5F1E;
+}
+.btn-primary:hover {
+  background: #b34401;
+  transition: all 0.3s ease-in-out;
+}
+
+section.cart {
+  background: #F8F8F8;
+}
+section.cart .amount {
+  color: #FE5F1E;
 }
