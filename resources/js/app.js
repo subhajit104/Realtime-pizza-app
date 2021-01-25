@@ -1,5 +1,8 @@
 // console.log("this will be converted with the help of larabel");s
 const axios = require('axios');
+const Noty = require('noty');
+ 
+
 /**
  * How to select class elements and how to add event listener.
  */
@@ -20,6 +23,13 @@ const updateCart = (data) => {
       axios.post('/update-cart', data).then(   // this will return a promise.
         res => {
           cartQty.innerText = res.data.totolQty;
+
+          new Noty({
+            type: 'success',
+            layout: 'topRight',
+            text: 'Item added to the cart',
+            timeout: 2000,
+            }).show();
         }
       ).catch( (error) => {
         console.log("error",error);

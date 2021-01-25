@@ -1,4 +1,6 @@
 @import 'variables';
+@import '~noty/src/noty.scss'; 
+@import '~noty/src/themes/mint.scss';
 
 body {
     font-family: lato , sans-serif;
@@ -61,3 +63,8 @@ section.cart {
     }
 }
 
+.noty_theme__mint{
+    
+    border-radius:500px 500px;
+    padding-left:8px;
+}

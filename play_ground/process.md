@@ -15,6 +15,8 @@
 7. Need to add midleware so that we can use the session in my views. 
 
    
-   console.log("###########################################################")
-   console.log("###########################################################")
+# ###########################################################"
+  In order to pop up animation, I need help of noty. 
+  Install noty.
+# ###########################################################"
 
